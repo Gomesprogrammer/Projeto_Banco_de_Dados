@@ -1,0 +1,770 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "originX": 0,
+    "originY": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 16,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "lockSettings": 63
+  },
+  "doc": {
+    "tableIds": [
+      "03h978oooei8jidp55ykr6mar",
+      "03h97brf978st2umvagvyi8tt",
+      "03h97dgp9ahdlkptrpkqlvv1x",
+      "03h97g6zdbzizqfe4jd53v7nk",
+      "03h9dxoznnmtu7vhuxhhaslk0",
+      "03h9dz5bw9f1rtxrk41scbtra",
+      "03h9e3muwxj952hpecote2sau",
+      "03h9e4c7sse90mkc0b73oyaiq",
+      "03h9e53g4mm5cdqzr2ixuflru",
+      "03h9e5wvyfbl3aan82a7t169k"
+    ],
+    "relationshipIds": [
+      "03h9e0hf6rndnj2hln5dx32n4",
+      "03h9e0iab6qy4y1wq1y7ccc5q",
+      "03h9e1dz4f23wim82zilonw5f",
+      "03h9e2vha5jiym3zw79h8nd6g",
+      "03h9e3aiy3evfzjt5kw2thbcy",
+      "03h9e4jksluiceeuey0y6htlh",
+      "03h9e4xa6i17qafozsxpso5fr",
+      "03h9e5k7t1zkmtqh4rtxnekg0",
+      "03h9e5sgk85ugfsf9m5fxxuka",
+      "03h9e6mmm8n93ove9qr14fua3",
+      "03h9e7cn18uyp5qf5tjvg40ux",
+      "03h9ea7xxgylm1szcqj5nrcuc"
+    ]
+  },
+  "collections": {
+    "tableEntities": {
+      "03h978oooei8jidp55ykr6mar": {
+        "id": "03h978oooei8jidp55ykr6mar",
+        "name": "escolas",
+        "columnIds": [
+          "03h979bm1otzgego6ksga6fn3",
+          "03h979ejhj4cj0m3s4qf37jea",
+          "03h9dxi5u877lhzi34jgw78e6",
+          "03h979g927x7biw0nh2rnothc",
+          "03h979if04nrjihs0ou7ee5d0"
+        ],
+        "ui": {
+          "x": 763.8891,
+          "y": -375.5266
+        }
+      },
+      "03h97brf978st2umvagvyi8tt": {
+        "id": "03h97brf978st2umvagvyi8tt",
+        "name": "etapas",
+        "columnIds": [
+          "03h97bsskm4ce44dnbtm1x19w",
+          "03h97c4ibuh1c3jitqwsh145v",
+          "03h97c96wqg428qhbv6m531xu",
+          "03h97cd4bdlgg7n38g8njtumu",
+          "03h97cja2d84xurfnd04i2ql2",
+          "03h97cm9dnlod6to81htd2s07"
+        ],
+        "ui": {
+          "x": 211.0881,
+          "y": -615.8097
+        }
+      },
+      "03h97dgp9ahdlkptrpkqlvv1x": {
+        "id": "03h97dgp9ahdlkptrpkqlvv1x",
+        "name": "equipes",
+        "columnIds": [
+          "03h97di14g9qvjkj6xynu9elt",
+          "03h97djsmen8m5lg5hgv8qfut",
+          "03h9e1dz49lr49o9bcqzjzl6p",
+          "03h9e2vha5jiym3zw78356asc"
+        ],
+        "ui": {
+          "x": 290.777,
+          "y": -355.6004
+        }
+      },
+      "03h97g6zdbzizqfe4jd53v7nk": {
+        "id": "03h97g6zdbzizqfe4jd53v7nk",
+        "name": "competidores",
+        "columnIds": [
+          "03h97l1sd5mxuty977vgfgfjq",
+          "03h97l3e3rk8qjrhkoz048fvd",
+          "03h9e3cyqow79dik50y8qp8l8",
+          "03h9e3aiy3evfzjt5ktbwz0ga",
+          "03h9e7qfgnxxkmq1wawv4c52b"
+        ],
+        "ui": {
+          "x": 760.4609,
+          "y": -191.2408
+        }
+      },
+      "03h9dxoznnmtu7vhuxhhaslk0": {
+        "id": "03h9dxoznnmtu7vhuxhhaslk0",
+        "name": "nivel_modalidade",
+        "columnIds": [
+          "03h9dxrck1wrmw5s2rsffdb40",
+          "03h9e233hqmou1sekwx25l3ob",
+          "03h9dxtchnj4mcdk9lae4jhjk",
+          "03h9dxxnc3nqkjwufahmezfny",
+          "03h9dy8dnd5q5b8cbl3g1lctx"
+        ],
+        "ui": {
+          "x": 236.9032,
+          "y": -79.8537
+        }
+      },
+      "03h9dz5bw9f1rtxrk41scbtra": {
+        "id": "03h9dz5bw9f1rtxrk41scbtra",
+        "name": "inricoes_etapas_equipes",
+        "columnIds": [
+          "03h9dz7mwg9sm2273bk8qx6z7",
+          "03h9dzcmxfz9ic6b2s93nzwdw",
+          "03h9dzfo601u7wqmq5dur285q",
+          "03h9e0hf6rndnj2hln4kcre1t",
+          "03h9e0iab1bvae06cb5mrzs3y"
+        ],
+        "ui": {
+          "x": 704.7933,
+          "y": -609.6009
+        }
+      },
+      "03h9e3muwxj952hpecote2sau": {
+        "id": "03h9e3muwxj952hpecote2sau",
+        "name": "juizes",
+        "columnIds": [
+          "03h9e3nmcqm4or4sxii2oxt50",
+          "03h9e3pvvm3vfr11xtcao8ca8",
+          "03h9e3rrq69qolezg640furh7",
+          "03h9e3tpub7u90jjorgwfwusg",
+          "03h9e3yy2lgztqmt6tx96502w"
+        ],
+        "ui": {
+          "x": 449.1007,
+          "y": 129.6568
+        }
+      },
+      "03h9e4c7sse90mkc0b73oyaiq": {
+        "id": "03h9e4c7sse90mkc0b73oyaiq",
+        "name": "juizes_niveis",
+        "columnIds": [
+          "03h9e4jksg9n06g348nd239b9",
+          "03h9e4xa6i17qafozsuvx82y9"
+        ],
+        "ui": {
+          "x": 782.0674,
+          "y": -14.2995
+        }
+      },
+      "03h9e53g4mm5cdqzr2ixuflru": {
+        "id": "03h9e53g4mm5cdqzr2ixuflru",
+        "name": "arenas",
+        "columnIds": [
+          "03h9e548x74v1t0q50zpf0il6",
+          "03h9e569gtn5j1dhorgo1kmyr",
+          "03h9e5k7t1zkmtqh4rqxsxvx2",
+          "03h9e5sgk2prp6ssputhb1sak"
+        ],
+        "ui": {
+          "x": 556.7929,
+          "y": -861.5516
+        }
+      },
+      "03h9e5wvyfbl3aan82a7t169k": {
+        "id": "03h9e5wvyfbl3aan82a7t169k",
+        "name": "avaliacao_rounds",
+        "columnIds": [
+          "03h9e5yun2d1hur99eemxlh6m",
+          "03h9e683ut8waohvi6hq2ucrj",
+          "03h9e69l879927kqa5741ytjb",
+          "03h9eab6r54cqnlv2m4xxv5st",
+          "03h9e6mmm8n93ove9qol85188",
+          "03h9e7cn18uyp5qf5tgqaitqv",
+          "03h9ea7xxgylm1szcqhh97har"
+        ],
+        "ui": {
+          "x": 498.5512,
+          "y": 331.8546
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "03h979bm1otzgego6ksga6fn3": {
+        "id": "03h979bm1otzgego6ksga6fn3",
+        "tableId": "03h978oooei8jidp55ykr6mar",
+        "name": "idescola",
+        "dataType": "serial2",
+        "options": 10
+      },
+      "03h979ejhj4cj0m3s4qf37jea": {
+        "id": "03h979ejhj4cj0m3s4qf37jea",
+        "tableId": "03h978oooei8jidp55ykr6mar",
+        "name": "nome",
+        "dataType": "varchar(200)",
+        "options": 8
+      },
+      "03h979g927x7biw0nh2rnothc": {
+        "id": "03h979g927x7biw0nh2rnothc",
+        "tableId": "03h978oooei8jidp55ykr6mar",
+        "name": "municipio",
+        "dataType": "Varchar(50)",
+        "options": 8
+      },
+      "03h979if04nrjihs0ou7ee5d0": {
+        "id": "03h979if04nrjihs0ou7ee5d0",
+        "tableId": "03h978oooei8jidp55ykr6mar",
+        "name": "rede",
+        "dataType": "Varhar(50)",
+        "options": 0
+      },
+      "03h9dxi5u877lhzi34jgw78e6": {
+        "id": "03h9dxi5u877lhzi34jgw78e6",
+        "tableId": "03h978oooei8jidp55ykr6mar",
+        "name": "uf",
+        "comment": "Sigla",
+        "dataType": "char(2)",
+        "options": 8
+      },
+      "03h97bsskm4ce44dnbtm1x19w": {
+        "id": "03h97bsskm4ce44dnbtm1x19w",
+        "tableId": "03h97brf978st2umvagvyi8tt",
+        "name": "idetapa",
+        "dataType": "serial2",
+        "options": 10
+      },
+      "03h97c4ibuh1c3jitqwsh145v": {
+        "id": "03h97c4ibuh1c3jitqwsh145v",
+        "tableId": "03h97brf978st2umvagvyi8tt",
+        "name": "nome_etapa",
+        "dataType": "Varchar(100)",
+        "options": 8
+      },
+      "03h97c96wqg428qhbv6m531xu": {
+        "id": "03h97c96wqg428qhbv6m531xu",
+        "tableId": "03h97brf978st2umvagvyi8tt",
+        "name": "edicao",
+        "comment": "Ano da etapa",
+        "dataType": "int",
+        "options": 8
+      },
+      "03h97cd4bdlgg7n38g8njtumu": {
+        "id": "03h97cd4bdlgg7n38g8njtumu",
+        "tableId": "03h97brf978st2umvagvyi8tt",
+        "name": "datainicio",
+        "comment": "Data de inicio da etapa",
+        "dataType": "date",
+        "options": 8
+      },
+      "03h97cja2d84xurfnd04i2ql2": {
+        "id": "03h97cja2d84xurfnd04i2ql2",
+        "tableId": "03h97brf978st2umvagvyi8tt",
+        "name": "datafim",
+        "comment": "Dara de fim da etapa",
+        "dataType": "date",
+        "options": 8
+      },
+      "03h97cm9dnlod6to81htd2s07": {
+        "id": "03h97cm9dnlod6to81htd2s07",
+        "tableId": "03h97brf978st2umvagvyi8tt",
+        "name": "local",
+        "comment": "local fisico",
+        "dataType": "varhar(120)",
+        "options": 8
+      },
+      "03h97di14g9qvjkj6xynu9elt": {
+        "id": "03h97di14g9qvjkj6xynu9elt",
+        "tableId": "03h97dgp9ahdlkptrpkqlvv1x",
+        "name": "idequipe",
+        "dataType": "serial2",
+        "options": 10
+      },
+      "03h97djsmen8m5lg5hgv8qfut": {
+        "id": "03h97djsmen8m5lg5hgv8qfut",
+        "tableId": "03h97dgp9ahdlkptrpkqlvv1x",
+        "name": "nome_equipe",
+        "dataType": "Varchar(120)",
+        "options": 8
+      },
+      "03h9e1dz49lr49o9bcqzjzl6p": {
+        "id": "03h9e1dz49lr49o9bcqzjzl6p",
+        "tableId": "03h97dgp9ahdlkptrpkqlvv1x",
+        "name": "escolas_idescola",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9e2vha5jiym3zw78356asc": {
+        "id": "03h9e2vha5jiym3zw78356asc",
+        "tableId": "03h97dgp9ahdlkptrpkqlvv1x",
+        "name": "id_nivel",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h97l1sd5mxuty977vgfgfjq": {
+        "id": "03h97l1sd5mxuty977vgfgfjq",
+        "tableId": "03h97g6zdbzizqfe4jd53v7nk",
+        "name": "idcompetidor",
+        "dataType": "serial2",
+        "options": 10
+      },
+      "03h97l3e3rk8qjrhkoz048fvd": {
+        "id": "03h97l3e3rk8qjrhkoz048fvd",
+        "tableId": "03h97g6zdbzizqfe4jd53v7nk",
+        "name": "funcao",
+        "dataType": "Varchar(100)",
+        "options": 8
+      },
+      "03h9e3aiy3evfzjt5ktbwz0ga": {
+        "id": "03h9e3aiy3evfzjt5ktbwz0ga",
+        "tableId": "03h97g6zdbzizqfe4jd53v7nk",
+        "name": "equipes_idequipe",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9e3cyqow79dik50y8qp8l8": {
+        "id": "03h9e3cyqow79dik50y8qp8l8",
+        "tableId": "03h97g6zdbzizqfe4jd53v7nk",
+        "name": "cpf",
+        "dataType": "char(11)",
+        "options": 8
+      },
+      "03h9e7qfgnxxkmq1wawv4c52b": {
+        "id": "03h9e7qfgnxxkmq1wawv4c52b",
+        "tableId": "03h97g6zdbzizqfe4jd53v7nk",
+        "name": "nome",
+        "dataType": "Varchar(100)",
+        "options": 8
+      },
+      "03h9dxrck1wrmw5s2rsffdb40": {
+        "id": "03h9dxrck1wrmw5s2rsffdb40",
+        "tableId": "03h9dxoznnmtu7vhuxhhaslk0",
+        "name": "id_nivel",
+        "dataType": "serial2",
+        "options": 10
+      },
+      "03h9dxtchnj4mcdk9lae4jhjk": {
+        "id": "03h9dxtchnj4mcdk9lae4jhjk",
+        "tableId": "03h9dxoznnmtu7vhuxhhaslk0",
+        "name": "nivel",
+        "comment": "\"nivel 1\", \"nivel2\"",
+        "dataType": "varhar(50)",
+        "options": 8
+      },
+      "03h9dxxnc3nqkjwufahmezfny": {
+        "id": "03h9dxxnc3nqkjwufahmezfny",
+        "tableId": "03h9dxoznnmtu7vhuxhhaslk0",
+        "name": "faixa",
+        "dataType": "varchar(80)",
+        "options": 8
+      },
+      "03h9dy8dnd5q5b8cbl3g1lctx": {
+        "id": "03h9dy8dnd5q5b8cbl3g1lctx",
+        "tableId": "03h9dxoznnmtu7vhuxhhaslk0",
+        "name": "tempo_max_round",
+        "dataType": "int",
+        "options": 8
+      },
+      "03h9e233hqmou1sekwx25l3ob": {
+        "id": "03h9e233hqmou1sekwx25l3ob",
+        "tableId": "03h9dxoznnmtu7vhuxhhaslk0",
+        "name": "modalidade",
+        "dataType": "varhar(100)",
+        "options": 8
+      },
+      "03h9dz7mwg9sm2273bk8qx6z7": {
+        "id": "03h9dz7mwg9sm2273bk8qx6z7",
+        "tableId": "03h9dz5bw9f1rtxrk41scbtra",
+        "name": "idinscricao",
+        "dataType": "serial2",
+        "options": 10
+      },
+      "03h9dzcmxfz9ic6b2s93nzwdw": {
+        "id": "03h9dzcmxfz9ic6b2s93nzwdw",
+        "tableId": "03h9dz5bw9f1rtxrk41scbtra",
+        "name": "data_inscricao",
+        "dataType": "date",
+        "options": 8
+      },
+      "03h9dzfo601u7wqmq5dur285q": {
+        "id": "03h9dzfo601u7wqmq5dur285q",
+        "tableId": "03h9dz5bw9f1rtxrk41scbtra",
+        "name": "status",
+        "comment": "\"classificado\", \"desclassifiado\"",
+        "dataType": "varhar(100)",
+        "options": 8
+      },
+      "03h9e0hf6rndnj2hln4kcre1t": {
+        "id": "03h9e0hf6rndnj2hln4kcre1t",
+        "tableId": "03h9dz5bw9f1rtxrk41scbtra",
+        "name": "equipes_idequipe",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9e0iab1bvae06cb5mrzs3y": {
+        "id": "03h9e0iab1bvae06cb5mrzs3y",
+        "tableId": "03h9dz5bw9f1rtxrk41scbtra",
+        "name": "etapas_idetapa",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9e3nmcqm4or4sxii2oxt50": {
+        "id": "03h9e3nmcqm4or4sxii2oxt50",
+        "tableId": "03h9e3muwxj952hpecote2sau",
+        "name": "id_juiz",
+        "dataType": "serial2",
+        "options": 10
+      },
+      "03h9e3pvvm3vfr11xtcao8ca8": {
+        "id": "03h9e3pvvm3vfr11xtcao8ca8",
+        "tableId": "03h9e3muwxj952hpecote2sau",
+        "name": "nome",
+        "dataType": "varchar(100)",
+        "options": 8
+      },
+      "03h9e3rrq69qolezg640furh7": {
+        "id": "03h9e3rrq69qolezg640furh7",
+        "tableId": "03h9e3muwxj952hpecote2sau",
+        "name": "cpf",
+        "dataType": "char(11)",
+        "options": 8
+      },
+      "03h9e3tpub7u90jjorgwfwusg": {
+        "id": "03h9e3tpub7u90jjorgwfwusg",
+        "tableId": "03h9e3muwxj952hpecote2sau",
+        "name": "instituicao_federacao",
+        "dataType": "varchar(100)",
+        "options": 8
+      },
+      "03h9e3yy2lgztqmt6tx96502w": {
+        "id": "03h9e3yy2lgztqmt6tx96502w",
+        "tableId": "03h9e3muwxj952hpecote2sau",
+        "name": "funcao",
+        "dataType": "varchar(50)",
+        "options": 8
+      },
+      "03h9e4jksg9n06g348nd239b9": {
+        "id": "03h9e4jksg9n06g348nd239b9",
+        "tableId": "03h9e4c7sse90mkc0b73oyaiq",
+        "name": "id_nivel",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9e4xa6i17qafozsuvx82y9": {
+        "id": "03h9e4xa6i17qafozsuvx82y9",
+        "tableId": "03h9e4c7sse90mkc0b73oyaiq",
+        "name": "id_juiz",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9e548x74v1t0q50zpf0il6": {
+        "id": "03h9e548x74v1t0q50zpf0il6",
+        "tableId": "03h9e53g4mm5cdqzr2ixuflru",
+        "name": "id_arena",
+        "dataType": "Serial2",
+        "options": 10
+      },
+      "03h9e569gtn5j1dhorgo1kmyr": {
+        "id": "03h9e569gtn5j1dhorgo1kmyr",
+        "tableId": "03h9e53g4mm5cdqzr2ixuflru",
+        "name": "arena",
+        "dataType": "Varchar(100)",
+        "options": 8
+      },
+      "03h9e5k7t1zkmtqh4rqxsxvx2": {
+        "id": "03h9e5k7t1zkmtqh4rqxsxvx2",
+        "tableId": "03h9e53g4mm5cdqzr2ixuflru",
+        "name": "etapas_idetapa",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9e5sgk2prp6ssputhb1sak": {
+        "id": "03h9e5sgk2prp6ssputhb1sak",
+        "tableId": "03h9e53g4mm5cdqzr2ixuflru",
+        "name": "id_nivel",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9e5yun2d1hur99eemxlh6m": {
+        "id": "03h9e5yun2d1hur99eemxlh6m",
+        "tableId": "03h9e5wvyfbl3aan82a7t169k",
+        "name": "id_round",
+        "dataType": "serial2",
+        "options": 10
+      },
+      "03h9e683ut8waohvi6hq2ucrj": {
+        "id": "03h9e683ut8waohvi6hq2ucrj",
+        "tableId": "03h9e5wvyfbl3aan82a7t169k",
+        "name": "numero_round",
+        "dataType": "int",
+        "options": 8
+      },
+      "03h9e69l879927kqa5741ytjb": {
+        "id": "03h9e69l879927kqa5741ytjb",
+        "tableId": "03h9e5wvyfbl3aan82a7t169k",
+        "name": "pontuacao",
+        "options": 0
+      },
+      "03h9e6mmm8n93ove9qol85188": {
+        "id": "03h9e6mmm8n93ove9qol85188",
+        "tableId": "03h9e5wvyfbl3aan82a7t169k",
+        "name": "id_juiz",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9e7cn18uyp5qf5tgqaitqv": {
+        "id": "03h9e7cn18uyp5qf5tgqaitqv",
+        "tableId": "03h9e5wvyfbl3aan82a7t169k",
+        "name": "id_arena",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9ea7xxgylm1szcqhh97har": {
+        "id": "03h9ea7xxgylm1szcqhh97har",
+        "tableId": "03h9e5wvyfbl3aan82a7t169k",
+        "name": "inricoes_etapas_equipes_idinscricao",
+        "dataType": "smallint",
+        "options": 8
+      },
+      "03h9eab6r54cqnlv2m4xxv5st": {
+        "id": "03h9eab6r54cqnlv2m4xxv5st",
+        "tableId": "03h9e5wvyfbl3aan82a7t169k",
+        "name": "tempo_round",
+        "options": 0
+      }
+    },
+    "relationshipEntities": {
+      "03h9e0hf6rndnj2hln5dx32n4": {
+        "id": "03h9e0hf6rndnj2hln5dx32n4",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h97dgp9ahdlkptrpkqlvv1x",
+          "columnIds": [
+            "03h97di14g9qvjkj6xynu9elt"
+          ]
+        },
+        "end": {
+          "tableId": "03h9dz5bw9f1rtxrk41scbtra",
+          "columnIds": [
+            "03h9e0hf6rndnj2hln4kcre1t"
+          ]
+        }
+      },
+      "03h9e0iab6qy4y1wq1y7ccc5q": {
+        "id": "03h9e0iab6qy4y1wq1y7ccc5q",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h97brf978st2umvagvyi8tt",
+          "columnIds": [
+            "03h97bsskm4ce44dnbtm1x19w"
+          ]
+        },
+        "end": {
+          "tableId": "03h9dz5bw9f1rtxrk41scbtra",
+          "columnIds": [
+            "03h9e0iab1bvae06cb5mrzs3y"
+          ]
+        }
+      },
+      "03h9e1dz4f23wim82zilonw5f": {
+        "id": "03h9e1dz4f23wim82zilonw5f",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h978oooei8jidp55ykr6mar",
+          "columnIds": [
+            "03h979bm1otzgego6ksga6fn3"
+          ]
+        },
+        "end": {
+          "tableId": "03h97dgp9ahdlkptrpkqlvv1x",
+          "columnIds": [
+            "03h9e1dz49lr49o9bcqzjzl6p"
+          ]
+        }
+      },
+      "03h9e2vha5jiym3zw79h8nd6g": {
+        "id": "03h9e2vha5jiym3zw79h8nd6g",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h9dxoznnmtu7vhuxhhaslk0",
+          "columnIds": [
+            "03h9dxrck1wrmw5s2rsffdb40"
+          ]
+        },
+        "end": {
+          "tableId": "03h97dgp9ahdlkptrpkqlvv1x",
+          "columnIds": [
+            "03h9e2vha5jiym3zw78356asc"
+          ]
+        }
+      },
+      "03h9e3aiy3evfzjt5kw2thbcy": {
+        "id": "03h9e3aiy3evfzjt5kw2thbcy",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h97dgp9ahdlkptrpkqlvv1x",
+          "columnIds": [
+            "03h97di14g9qvjkj6xynu9elt"
+          ]
+        },
+        "end": {
+          "tableId": "03h97g6zdbzizqfe4jd53v7nk",
+          "columnIds": [
+            "03h9e3aiy3evfzjt5ktbwz0ga"
+          ]
+        }
+      },
+      "03h9e4jksluiceeuey0y6htlh": {
+        "id": "03h9e4jksluiceeuey0y6htlh",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h9dxoznnmtu7vhuxhhaslk0",
+          "columnIds": [
+            "03h9dxrck1wrmw5s2rsffdb40"
+          ]
+        },
+        "end": {
+          "tableId": "03h9e4c7sse90mkc0b73oyaiq",
+          "columnIds": [
+            "03h9e4jksg9n06g348nd239b9"
+          ]
+        }
+      },
+      "03h9e4xa6i17qafozsxpso5fr": {
+        "id": "03h9e4xa6i17qafozsxpso5fr",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h9e3muwxj952hpecote2sau",
+          "columnIds": [
+            "03h9e3nmcqm4or4sxii2oxt50"
+          ]
+        },
+        "end": {
+          "tableId": "03h9e4c7sse90mkc0b73oyaiq",
+          "columnIds": [
+            "03h9e4xa6i17qafozsuvx82y9"
+          ]
+        }
+      },
+      "03h9e5k7t1zkmtqh4rtxnekg0": {
+        "id": "03h9e5k7t1zkmtqh4rtxnekg0",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h97brf978st2umvagvyi8tt",
+          "columnIds": [
+            "03h97bsskm4ce44dnbtm1x19w"
+          ]
+        },
+        "end": {
+          "tableId": "03h9e53g4mm5cdqzr2ixuflru",
+          "columnIds": [
+            "03h9e5k7t1zkmtqh4rqxsxvx2"
+          ]
+        }
+      },
+      "03h9e5sgk85ugfsf9m5fxxuka": {
+        "id": "03h9e5sgk85ugfsf9m5fxxuka",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h9dxoznnmtu7vhuxhhaslk0",
+          "columnIds": [
+            "03h9dxrck1wrmw5s2rsffdb40"
+          ]
+        },
+        "end": {
+          "tableId": "03h9e53g4mm5cdqzr2ixuflru",
+          "columnIds": [
+            "03h9e5sgk2prp6ssputhb1sak"
+          ]
+        }
+      },
+      "03h9e6mmm8n93ove9qr14fua3": {
+        "id": "03h9e6mmm8n93ove9qr14fua3",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h9e3muwxj952hpecote2sau",
+          "columnIds": [
+            "03h9e3nmcqm4or4sxii2oxt50"
+          ]
+        },
+        "end": {
+          "tableId": "03h9e5wvyfbl3aan82a7t169k",
+          "columnIds": [
+            "03h9e6mmm8n93ove9qol85188"
+          ]
+        }
+      },
+      "03h9e7cn18uyp5qf5tjvg40ux": {
+        "id": "03h9e7cn18uyp5qf5tjvg40ux",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h9e53g4mm5cdqzr2ixuflru",
+          "columnIds": [
+            "03h9e548x74v1t0q50zpf0il6"
+          ]
+        },
+        "end": {
+          "tableId": "03h9e5wvyfbl3aan82a7t169k",
+          "columnIds": [
+            "03h9e7cn18uyp5qf5tgqaitqv"
+          ]
+        }
+      },
+      "03h9ea7xxgylm1szcqj5nrcuc": {
+        "id": "03h9ea7xxgylm1szcqj5nrcuc",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h9dz5bw9f1rtxrk41scbtra",
+          "columnIds": [
+            "03h9dz7mwg9sm2273bk8qx6z7"
+          ]
+        },
+        "end": {
+          "tableId": "03h9e5wvyfbl3aan82a7t169k",
+          "columnIds": [
+            "03h9ea7xxgylm1szcqhh97har"
+          ]
+        }
+      }
+    }
+  }
+}
