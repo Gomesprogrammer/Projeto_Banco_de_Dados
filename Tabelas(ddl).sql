@@ -90,4 +90,23 @@ CREATE TABLE avaliacao_rounds (
         REFERENCES arenas (id_arena, id_etapa)
 );
 
+CREATE OR REPLACE VIEW vw_placar AS
+SELECT
+    ie.id_inscricao,
+    eq.id_equipe,
+    eq.nome_equipe,
+    nm.nivel,
+    ie.id_etapa,
+    et.nome_etapa,
+    SUM(ar.pontuacao) AS total_pontos,
+    RANK() OVER (PARTITION BY ie.id_etapa, eq.id_nivel ORDER BY SUM(ar.pontuacao) DESC) AS posicao
+    FROM inscricoes_etapas_equipes ie
+    JOIN equipes eq ON ie.id_equipe = eq.id_equipe 
+    JOIN nivel_modalidade nm ON eq.id_nivel = nm.id_nivel
+    JOIN avaliacao_rounds ar ON ar.id_inscricao = ie.id_inscricao
+    JOIN etapas et ON ie.id_etapa = et.id_etapa
+    GROUP BY ie.id_inscricao, eq.id_equipe, eq.nome_equipe, nm.nivel, ie.id_etapa, et.nome_etapa;
+
+
+
 

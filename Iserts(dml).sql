@@ -1,0 +1,222 @@
+INSERT INTO escolas (nome, uf, municipio, rede) VALUES
+('Escola Estadual Coronel', 'SP', 'São Paulo', 'Publica'),
+('Colegio Particular Modelo', 'RJ', 'Rio de Janeiro', 'Particular'),
+('Escola Joao Serroso', 'MG', 'Belo Horizonte', 'Publica'), 
+('Escola Senador Carlos', 'RS', 'Porto Alegre', 'Publica'),
+('Colegio Maria Rosa', 'BA', 'Salvador', 'Particular'),
+('Escola Joao Liberato', 'PR', 'Curitiba', 'Publica'),
+('Colegio Isaac Newton', 'PE', 'Recife', 'Particular'),
+('Escola de Educação Infantil Criativa', 'CE', 'Fortaleza', 'Publica'),
+('Colegio Excelência', 'DF', 'Brasília', 'Particular'),
+('Colegio de Artes e Cultura Local', 'SC', 'Florianópolis', 'Particular'), 
+('Colegio Ciências e Tecnologia Avançada', 'SP', 'Campinas', 'Particular'),
+('Escola de Línguas e Comunicação Internacional', 'RJ', 'Niterói', 'Publica'),
+('Escola de Educação Especial Inclusiva', 'MG', 'Uberlândia', 'Publica'),
+('Colegio de Educação Profissionalizante Técnica', 'RS', 'Caxias do Sul', 'Particular'),
+('Escola de Ensino Fundamental e Médio Integrado', 'BA', 'Feira de Santana', 'Publica'),
+('Colegio de Educação Infantil e Ensino Fundamental Criativa', 'PR', 'Londrina', 'Particular');
+
+INSERT INTO nivel_modalidade (modalidade, nivel, faixa, tempo_max_round) VALUES
+('Resgate', 'Nivel 0', 'Fundamental I', 300),
+('Resgate', 'Nivel 1', 'Fundamental II', 300),
+('Resgate', 'Nivel 2' ,'Fundamental III e Ensino Médio', 300);
+
+INSERT INTO etapas (nome_etapa, tipo, edicao, data_inicio, data_fim, local) VALUES
+('OBR - Etapa Nacional 2026', 'Nacional', 2026, '2026-11-01', '2026-11-02', 'Rio de Janeiro'),
+('OBR - Etapa Estadual 2026', 'Estadual', 2026, '2026-10-15', '2026-10-15', 'Sao Paulo'),
+('OBR - Etapa Regional 2026', 'Regional', 2026, '2026-09-10', '2026-09-10', 'Minas Gerais');
+
+INSERT INTO equipes (nome_equipe, id_escola, id_nivel) VALUES
+('Equipe Alpha', 1, 1),
+('Equipe Beta', 2, 2),
+('Equipe Gama', 3, 3),
+('Equipe Delta', 4, 1),
+('Equipe Epsilon', 5, 2),
+('Equipe Zeta', 6, 3),
+('Equipe Eta', 7, 1),
+('Equipe Theta', 8, 2),
+('Equipe Iota', 9, 3),
+('Equipe Kappa', 10, 1), 
+('Equipe Lambda', 11, 2),
+('Equipe Mu', 12, 3),
+('Equipe Nu', 13, 1),
+('Equipe Xi', 14, 2),
+('Equipe Omicron', 15, 3),
+('Equipe Pi', 16, 1);
+
+INSERT INTO competidores (nome, data_nascimento, funcao, cpf, id_equipe) VALUES
+('João Silva', '2008-05-12', 'capitao', '12345678901', 1),
+('Maria Oliveira', '2007-08-23', 'co-capitao', '23456789012', 1),
+('Pedro Santos', '2009-02-15', 'capitao', '34567890123', 2),
+('Ana Costa', '2008-11-30', 'co-capitao', '45678901234', 2), 
+('Lucas Pereira', '2007-04-18', 'capitao', '56789012345', 3),
+('Beatriz Almeida', '2009-09-05', 'co-capitao', '67890123456', 3),
+('Rafael Rodrigues', '2008-01-22', 'capitao', '78901234567', 4),
+('Camila Ferreira', '2007-06-14', 'co-capitao', '89012345678', 4),
+('Gabriel Martins', '2009-03-09', 'capitao', '90123456789', 5),
+('Larissa Souza', '2008-12-27', 'co-capitao', '01234567890', 5), 
+('Felipe Lima', '2007-07-19', 'capitao', '12345678902', 6),
+('Juliana Rocha', '2009-10-11', 'co-capitao', '23456789023', 6),
+('Thiago Alves', '2008-02-28', 'capitao', '34567890134', 7),
+('Isabela Ribeiro', '2007-05-16', 'co-capitao', '45678901245', 7),
+('Vinicius Cardoso', '2009-08-04', 'capitao', '56789012356', 8),
+('Mariana Nunes', '2008-11-21', 'co-capitao', '67890123467', 8), 
+('Gustavo Moreira', '2007-03-13', 'capitao', '78901234578', 9),
+('Camila Azevedo', '2009-06-29', 'co-capitao', '89012345689', 9),
+('Bruno Teixeira', '2008-09-17', 'capitao', '90123456790', 10),
+('Fernanda Lima', '2007-12-05', 'co-capitao', '01234567891', 10), 
+('Diego Fernandes', '2009-04-23', 'capitao', '12345678903', 11),
+('Larissa Santos', '2008-07-30', 'co-capitao', '23456789034', 11),
+('Matheus Oliveira', '2007-10-18', 'capitao', '34567890145', 12),
+('Amanda Costa', '2009-01-06', 'co-capitao', '45678901256', 12),
+('Rafael Lima', '2008-03-25', 'capitao', '56789012367', 13),
+('Juliana Martins', '2007-06-12', 'co-capitao', '67890123478', 13),
+('Lucas Rodrigues', '2009-09-29', 'capitao', '78901234589', 14),
+('Isabela Souza', '2008-12-17', 'co-capitao', '89012345690', 14), 
+('Gustavo Pereira', '2007-05-04', 'capitao', '90123456701', 15),
+('Camila Almeida', '2009-08-22', 'co-capitao', '01234567812', 15),
+('Bruno Rocha', '2008-11-09', 'capitao', '12345678904', 16),
+('Fernanda Nunes', '2007-02-27', 'co-capitao', '23456789015', 16);
+
+INSERT INTO arenas (arena, id_etapa, id_nivel) VALUES
+('Arena 01 - Nível 0', 1, 1),
+('Arena 02 - Nível 0', 1, 1),
+('Arena 03 - Nível 0', 1, 1),
+('Arena 01 - Nível 1', 1, 2),
+('Arena 02 - Nível 1', 1, 2),
+('Arena 03 - Nível 1', 1, 2),
+('Arena 01 - Nível 2', 1, 3),
+('Arena 02 - Nível 2', 1, 3),
+('Arena 03 - Nível 2', 1, 3),
+('Arena 01 - Nível 0', 2, 1),
+('Arena 02 - Nível 0', 2, 1),
+('Arena 03 - Nível 0', 2, 1),
+('Arena 01 - Nível 1', 2, 2),
+('Arena 02 - Nível 1', 2, 2),
+('Arena 03 - Nível 1', 2, 2),
+('Arena 01 - Nível 2', 2, 3),
+('Arena 02 - Nível 2', 2, 3),
+('Arena 03 - Nível 2', 2, 3),
+('Arena 01 - Nível 0', 3, 1),
+('Arena 02 - Nível 0', 3, 1),
+('Arena 03 - Nível 0', 3, 1),
+('Arena 01 - Nível 1', 3, 2),
+('Arena 02 - Nível 1', 3, 2),
+('Arena 03 - Nível 1', 3, 2),
+('Arena 01 - Nível 2', 3, 3),
+('Arena 02 - Nível 2', 3, 3),
+('Arena 03 - Nível 2', 3, 3);
+
+INSERT INTO inscricoes_etapas_equipes (data_inscricao, status, id_equipe, id_etapa) VALUES
+('2026-08-01', 'inscrito', 1, 3),
+('2026-08-02', 'inscrito', 2, 3),
+('2026-08-03', 'inscrito', 3, 3),
+('2026-08-04', 'inscrito', 4, 3),
+('2026-08-05', 'inscrito', 5, 3),
+('2026-08-06', 'inscrito', 6, 3),
+('2026-08-07', 'inscrito', 7, 3),
+('2026-08-08', 'inscrito', 8, 3),
+('2026-08-09', 'inscrito', 9, 3),
+('2026-08-10', 'inscrito', 10, 3), 
+('2026-08-11', 'inscrito', 11, 3),
+('2026-08-12', 'inscrito', 12, 3),
+('2026-08-13', 'inscrito', 13, 3),
+('2026-08-14', 'inscrito', 14, 3),
+('2026-08-15', 'inscrito', 15, 3),
+('2026-08-16', 'inscrito', 16, 3);
+
+INSERT INTO juizes (nome, cpf, instituicao_federacao, funcao) VALUES
+('Carlos Silva', '12345678901', 'Instituto Nacional de Robótica', 'Juiz Chefe'),
+('Fernanda Oliveira', '23456789012', 'Associação Brasileira de Robótica', 'Juiz'),
+('Rafael Santos', '34567890123', 'Federação Internacional de Robótica', 'Juiz'),
+('Juliana Costa', '45678901234', 'Instituto Nacional de Robótica', 'Juiz'),
+('Lucas Pereira', '56789012345', 'Associação Brasileira de Robótica', 'Juiz'),
+('Mariana Almeida', '67890123456', 'Federação Internacional de Robótica', 'Juiz'),
+('Gustavo Rodrigues', '78901234567', 'Instituto Nacional de Robótica', 'Juiz'),
+('Isabela Ferreira', '89012345678', 'Associação Brasileira de Robótica', 'Juiz'),
+('Bruno Martins', '90123456789', 'Federação Internacional de Robótica', 'Juiz');
+
+INSERT INTO juizes_niveis (id_nivel, id_juiz) VALUES
+(1, 1), (2, 1), (3, 1),
+(1, 2), (1, 3),        
+(2, 4), (2, 5),       
+(3, 6), (3, 7);
+
+INSERT INTO avaliacao_rounds (numero_round, pontuacao, id_juiz, id_inscricao, id_arena, id_etapa) VALUES
+-- Nível 0 (Arena 19 = Juiz 1 | Arena 20 = Juiz 2 | Arena 21 = Juiz 3)
+(1, 240.00, 1,  1, 19, 3), (2, 260.00, 1,  1, 19, 3), (3, 275.00, 1,  1, 19, 3),
+(1, 210.00, 2,  4, 20, 3), (2, 225.00, 2,  4, 20, 3), (3, 230.00, 2,  4, 20, 3), 
+(1, 190.00, 3,  7, 21, 3), (2, 200.00, 3,  7, 21, 3), (3, 215.00, 3,  7, 21, 3), 
+(1, 140.00, 1, 10, 19, 3), (2, 150.00, 1, 10, 19, 3), (3, 130.00, 1, 10, 19, 3), 
+(1, 110.00, 2, 13, 20, 3), (2, 120.00, 2, 13, 20, 3), (3, 100.00, 2, 13, 20, 3), 
+(1,  80.00, 3, 16, 21, 3), (2,  95.00, 3, 16, 21, 3), (3,  90.00, 3, 16, 21, 3), 
+
+(1, 270.00, 1,  2, 22, 3), (2, 285.00, 1,  2, 22, 3), (3, 290.00, 1,  2, 22, 3), 
+(1, 230.00, 4,  5, 23, 3), (2, 240.00, 4,  5, 23, 3), (3, 250.00, 4,  5, 23, 3),
+(1, 200.00, 5,  8, 24, 3), (2, 210.00, 5,  8, 24, 3), (3, 220.00, 5,  8, 24, 3), 
+(1, 150.00, 1, 11, 22, 3), (2, 160.00, 1, 11, 22, 3), (3, 155.00, 1, 11, 22, 3),
+(1, 100.00, 4, 14, 23, 3), (2, 115.00, 4, 14, 23, 3), (3, 120.00, 4, 14, 23, 3),
+
+
+(1, 280.00, 1,  3, 25, 3), (2, 295.00, 1,  3, 25, 3), (3, 300.00, 1,  3, 25, 3), 
+(1, 245.00, 6,  6, 26, 3), (2, 255.00, 6,  6, 26, 3), (3, 260.00, 6,  6, 26, 3), 
+(1, 210.00, 7,  9, 27, 3), (2, 220.00, 7,  9, 27, 3), (3, 230.00, 7,  9, 27, 3), 
+(1, 160.00, 1, 12, 25, 3), (2, 170.00, 1, 12, 25, 3), (3, 165.00, 1, 12, 25, 3),
+(1, 120.00, 6, 15, 26, 3), (2, 130.00, 6, 15, 26, 3), (3, 125.00, 6, 15, 26, 3); 
+
+UPDATE inscricoes_etapas_equipes
+SET status='CLASSIFICADO' WHERE id_inscricao IN ( SELECT id_inscricao FROM vw_placar WHERE id_etapa =3 AND posicao<=3);
+
+UPDATE inscricoes_etapas_equipes
+SET status='DESCLASSIFICADO' WHERE id_inscricao IN ( SELECT id_inscricao FROM vw_placar WHERE id_etapa =3 AND posicao>3);
+
+INSERT INTO inscricoes_etapas_equipes (data_inscricao, status, id_equipe, id_etapa)
+SELECT '2026-10-01', 'inscrito', id_equipe, 2
+FROM vw_placar
+WHERE id_etapa = 3 AND posicao <= 3
+ORDER BY id_equipe;
+
+INSERT INTO avaliacao_rounds (numero_round, pontuacao, id_juiz, id_inscricao, id_arena, id_etapa) VALUES
+
+(1, 270.00, 1, 17, 10, 2), (2, 285.00, 1, 17, 10, 2), (3, 290.00, 1, 17, 10, 2),
+(1, 240.00, 2, 20, 11, 2), (2, 250.00, 2, 20, 11, 2), (3, 260.00, 2, 20, 11, 2),
+(1, 200.00, 3, 23, 12, 2), (2, 210.00, 3, 23, 12, 2), (3, 215.00, 3, 23, 12, 2),
+
+(1, 280.00, 1, 18, 13, 2), (2, 290.00, 1, 18, 13, 2), (3, 295.00, 1, 18, 13, 2),
+(1, 250.00, 4, 21, 14, 2), (2, 260.00, 4, 21, 14, 2), (3, 265.00, 4, 21, 14, 2),
+(1, 215.00, 5, 24, 15, 2), (2, 220.00, 5, 24, 15, 2), (3, 225.00, 5, 24, 15, 2),
+
+(1, 290.00, 1, 19, 16, 2), (2, 295.00, 1, 19, 16, 2), (3, 300.00, 1, 19, 16, 2),
+(1, 260.00, 6, 22, 17, 2), (2, 270.00, 6, 22, 17, 2), (3, 275.00, 6, 22, 17, 2),
+(1, 220.00, 7, 25, 18, 2), (2, 230.00, 7, 25, 18, 2), (3, 235.00, 7, 25, 18, 2);
+
+UPDATE inscricoes_etapas_equipes
+SET status='CLASSIFICADO' WHERE id_inscricao IN ( SELECT id_inscricao FROM vw_placar WHERE id_etapa =2 AND posicao<=2);
+
+UPDATE inscricoes_etapas_equipes
+SET status='DESCLASSIFICADO' WHERE id_inscricao IN ( SELECT id_inscricao FROM vw_placar WHERE id_etapa =2 AND posicao>2);
+
+INSERT INTO inscricoes_etapas_equipes (data_inscricao, status, id_equipe, id_etapa)
+SELECT '2026-10-20', 'inscrito', id_equipe, 1
+FROM vw_placar
+WHERE id_etapa = 2 AND posicao <= 2
+ORDER BY id_equipe;
+
+INSERT INTO avaliacao_rounds (numero_round, pontuacao, id_juiz, id_inscricao, id_arena, id_etapa) VALUES
+
+(1, 290.00, 1, 26, 1, 1), (2, 295.00, 1, 26, 1, 1), (3, 300.00, 1, 26, 1, 1),
+(1, 265.00, 2, 29, 2, 1), (2, 275.00, 2, 29, 2, 1), (3, 280.00, 2, 29, 2, 1),
+
+(1, 295.00, 1, 27, 4, 1), (2, 300.00, 1, 27, 4, 1), (3, 300.00, 1, 27, 4, 1),
+(1, 270.00, 4, 30, 5, 1), (2, 280.00, 4, 30, 5, 1), (3, 285.00, 4, 30, 5, 1),
+
+(1, 298.00, 1, 28, 7, 1), (2, 300.00, 1, 28, 7, 1), (3, 300.00, 1, 28, 7, 1),
+(1, 280.00, 6, 31, 8, 1), (2, 285.00, 6, 31, 8, 1), (3, 290.00, 6, 31, 8, 1);
+
+UPDATE inscricoes_etapas_equipes
+SET status = 'campeao'
+WHERE id_inscricao IN (SELECT id_inscricao FROM vw_placar WHERE id_etapa = 1 AND posicao = 1);
+
+UPDATE inscricoes_etapas_equipes
+SET status = 'finalista'
+WHERE id_inscricao IN (SELECT id_inscricao FROM vw_placar WHERE id_etapa = 1 AND posicao > 1);
