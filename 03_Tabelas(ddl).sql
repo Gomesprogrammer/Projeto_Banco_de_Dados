@@ -98,6 +98,7 @@ SELECT
     nm.nivel,
     ie.id_etapa,
     et.nome_etapa,
+    ie.status,
     SUM(ar.pontuacao) AS total_pontos,
     RANK() OVER (PARTITION BY ie.id_etapa, eq.id_nivel ORDER BY SUM(ar.pontuacao) DESC) AS posicao
     FROM inscricoes_etapas_equipes ie
@@ -105,7 +106,9 @@ SELECT
     JOIN nivel_modalidade nm ON eq.id_nivel = nm.id_nivel
     JOIN avaliacao_rounds ar ON ar.id_inscricao = ie.id_inscricao
     JOIN etapas et ON ie.id_etapa = et.id_etapa
-    GROUP BY ie.id_inscricao, eq.id_equipe, eq.nome_equipe, nm.nivel, ie.id_etapa, et.nome_etapa;
+    GROUP BY ie.id_inscricao, eq.id_equipe, eq.nome_equipe, nm.nivel, ie.id_etapa, et.nome_etapa,ie.status;
+
+
 
 
 
